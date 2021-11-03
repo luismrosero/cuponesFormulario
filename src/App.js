@@ -12,7 +12,7 @@ function App() {
        container
        direction="row"
        justifyContent="flex-start"
-       alignItems="flex-start"
+       alignItems="center"
       >
 
          {usuario === null ? <Login setUsuario={setUsuario} /> : <Formulario/>}
